@@ -1,1 +1,1 @@
-This is a sample text file created only for the testing purposes.
+Note: This is a sample text file created only for the testing purposes.

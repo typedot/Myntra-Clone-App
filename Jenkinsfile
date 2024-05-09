@@ -77,7 +77,7 @@ pipeline {
             steps {
                 withCredentials([string(credentialsId: 'github', variable: 'GITHUB_TOKEN')]) {
                     sh '''
-                        git config user.email "delhi.keshav@gmail.com"
+                        git config user.email "your-email@domain.com" /*enter your email*/
                         git config user.name "typedot"
                         ReplaceImageTag=${BUILD_NUMBER}
                         git clone https://github.com/typedot/myntra-clone-app-manifests.git
